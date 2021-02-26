@@ -160,4 +160,4 @@ Unique customers standard dev: 1.35
 
 ## Summary <a name="Summary"></a>
 
-Given that the p-value is less than the alpha of 0.05, I reject the null hypothesis. I accept the alternative hypothesis the the average rating of unique users if significantly higher than that of the average ratings of loyal users. It appears that loyalty does not matter to ratings. Although this result is significantly different, it is not practical in making business decisions.
+Given that the p-value is less than the alpha of 0.05, I reject the null hypothesis. I accept the alternative hypothesis that the average rating of unique users if significantly higher than that of the average ratings of loyal users. It appears that loyalty does not matter to ratings. Although this result is significantly different, it is not practical in making business decisions.
