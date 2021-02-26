@@ -1,5 +1,5 @@
 # Rent the Runway: Analyzing a Sequins of Events
-# Table of Contents
+## Table of Contents
 1. [Description](#description)
 2. [Data Overview](#DataOverview)
 3. [Data Preparation](#DataPreparation)
