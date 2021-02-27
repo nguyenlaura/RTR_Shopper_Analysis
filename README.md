@@ -129,28 +129,36 @@ Again, with ratings by body type, across the board, the average rating is above 
 
 Loyal users are reviewers who have posted a review more than once while Unique users are those who have posted a review only once. To find and filter out both types of users, I created a new column called review_count with the total of each person's review counts.
 
-> **H0:** There is no difference in the average ratings of Loyal and Unique shoppers
-
-> **HA:** There is a significant difference in the average ratings of Loyal and Unique shoppers
-
-**alpha** = 0.05
-
 **Loyal users:** 33,707
 
 **Loyal users' total reviews:** 120,720
 
 
+> **H0:** There is no difference in the average ratings of Loyal and Unique shoppers
+
+> **HA:** There is a significant difference in the average ratings of Loyal and Unique shoppers
+
+After making my null and alternative hypotheses, I set my alpha value to 5%, which is standard, but also because the outcome of the results need not be strict.
+
+**alpha** = 0.05
+
 **Unique users:** 71,824
 
 ### Findings
 
+The average mean for both samples are seemingly close. To test further, I will use the Mann Whitney U test to solidify my findings. I am using this test as opposed to the t-test because my data is not normally distributed.
+
 Mean of ratings by Loyal users: 9.03
+
 Mean of ratings by Unique users: 9.20
 
 Loyal customers standard dev: 1.47
+
 Unique customers standard dev: 1.35
 
 ### Mann Whitney U test result
+
+My p-value has returned with a number that is extremely low.
 
 **p-value** = 0.00
 
