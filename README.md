@@ -10,10 +10,10 @@
 
 
 ## Description <a name="description"></a>
-Rent the Runway (RTR) is an online e-commerce website that allows women to rent clothing for special events and every day purposes. The dataset contains of over 150k rows of reviews. In this exploratory data analysis, we ultimately want to know how many unique reviewers are there compared to users who have posted a review more than once and whether or not their ratings differ.
+Rent the Runway (RTR) is an online e-commerce website that allows women to rent clothing for special events and every day purposes. The dataset contains of over 105k rows of reviews. In this exploratory data analysis, we ultimately want to know how many unique reviewers are there compared to users who have posted a review more than once and whether or not their ratings differ.
 
 ## Data Overview <a name="DataOverview"></a>
-UCSD has provided a dataset of over 150,000 rows of user reviews from November 3, 2010 to January 8, 2018. RTR has made it known in numerous [publications](https://digital.hbs.edu/platform-rctom/submission/rent-the-runway-wants-to-predict-your-fashion-choices-and-give-you-a-virtual-closet-will-you-let-them/) that their top priority is customer experience with clothing fit.
+UCSD has provided a [dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit) of over 105,000 rows of user reviews from November 3, 2010 to January 8, 2018. RTR has made it known in numerous [publications](https://digital.hbs.edu/platform-rctom/submission/rent-the-runway-wants-to-predict-your-fashion-choices-and-give-you-a-virtual-closet-will-you-let-them/) that their top priority is customer experience with clothing fit.
 Given the former, this project observes the relationships between the average user and ratings.
 
 **fit:** String information on wether user's review item 'fit', was too 'large', or too 'small'.
@@ -74,7 +74,7 @@ This is the initial summary statisitics for the data with values as ints or floa
 
 ### The Average Reviewer
 
-Among the 150k reviewers, the majority lean toward rating their experience as an 8 or 10.
+Among the 105k reviewers, the majority lean toward rating their experience as an 8 or 10.
 ![reviwer ratings](src/RatingsOverall.png)
 
 They are predominantly ages 20-40.
