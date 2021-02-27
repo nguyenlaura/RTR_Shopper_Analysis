@@ -70,68 +70,64 @@ Some of the attributes needed to be formatted:
 
 This is the initial summary statisitics for the data with values as ints or floats.
 
-<img src="dfdescribe.png"
-     alt="data describe"
-     style="float: left; margin-right: 10px;" />
+![data describe](src/dfdescribe.png)
 
 ### The Average Reviewer
 
 Among the 150k reviewers, the majority lean toward rating their experience as an 8 or 10.
+![reviwer ratings](src/RatingsOverall.png)
 
-<img src="RatingsOverall.png"
-     alt="reviwer ratings"
-     style="float: left; margin-right: 10px;" />
-     
 They are predominantly ages 20-40.
 
-<img src="ReviewerAges.png"
+<img src="src/ReviewerAges.png"
      alt="reviewer ages"
      style="float: left; margin-right: 10px;" />
 
 Reviewers tend to be around 5'3 to 5'7 in height.
 
-<img src="ReviewerHeights.png"
+<img src="src/ReviewerHeights.png"
      alt="reviewer heights"
      style="float: left; margin-right: 10px;" />
 
 The average reviewer size is a size 12.
 
-<img src="ReviewerSizes.png"
+<img src="src/ReviewerSizes.png"
      alt="reviewer size"
      style="float: left; margin-right: 10px;" />
-     
- 
+
+
 Of the reviews, these words appeared most often
 
-<img src="ReviewsWordCloud.png"
+<img src="src/ReviewsWordCloud.png"
      alt="top review words"
      style="float: left; margin-right: 10px;" />
-     
+
 All of the occasions that the women in this dataset rented for are as follows:
 
-<img src="occasions.png"
+<img src="src/occasions.png"
      alt="occasions"
-     style="float: left; margin-right: 10px;" />
+     style="float: right; margin-right: 10px;" />
+
 
 ### Ratings by Attributes
 Generally, women in the following categories gave ratings of 8 and above, similar to the overall ratings chart.
 
 Here are women's ratings by how well their rental fit.
 
-<img src="Fit-Rating.png"
+<img src="src/Fit-Rating.png"
      alt="rating by fit"
      style="float: left; margin-right: 10px;" />
-     
+
 Again, with ratings by body type, across the board, the average rating is above and 8.
 
-<img src="BodyType-Rating.png"
+<img src="src/BodyType-Rating.png"
      alt="rating by body type"
      style="float: left; margin-right: 10px;" />
-     
+
 
 ## Hypothesis Testing: Loyal User Ratings vs. Unique User Ratings <a name="HypothesisTesting"></a>
 
-Loyal users are reviewers who have posted a review more than once while Unique users are those who have posted a review only once. To find and filter out both types of users, I created a new column called review_count with the total of each person's review counts. 
+Loyal users are reviewers who have posted a review more than once while Unique users are those who have posted a review only once. To find and filter out both types of users, I created a new column called review_count with the total of each person's review counts.
 
 > **H0:** There is no difference in the average ratings of Loyal and Unique shoppers
 
@@ -141,7 +137,7 @@ Loyal users are reviewers who have posted a review more than once while Unique u
 
 **Loyal users:** 33,707
 
-**Loyal users' total reviews:** 120,720 
+**Loyal users' total reviews:** 120,720
 
 
 **Unique users:** 71,824
